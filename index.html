@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Tour Plan - Hotel Booking</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="navbar-top">
+        <a href="#" class="logo">
+          <img src="img/M I A M I T U R.svg" alt="Logo Best Tour Plan" class="logo__image" />
+        </a>
+        <form action="#" class="search navbar__search">
+          <input type="text" class="search__input" placeholder="Search Location" />
+          <button class="search__button">
+            <img src="img/1 Find Button.svg" alt="icon:search" />
+          </button>
+        </form>
+
+        <a href="#" class="user navbar__user">
+          <img src="img/dev1.jpg" alt="avatar:Natali" class="user__avatar" />
+          <span class="user__name">Natali</span>
+        </a>
+        <!-- /.user -->
+        <button class="menu-button navbar-top__menu-button">
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+        </button>
+      </div>
+      <!-- /.navbar-top -->
+
+    </div>
+    <!-- /.container -->
+    <div class="navbar-botton">
+      <div class="container">
+        <ul class="navbar-menu">
+          <li class="navbar-menu__item">
+            <a href="#" class="navbar-menu__link">All Deals</a>
+          </li>
+          <li class="navbar-menu__item">
+            <a href="#" class="navbar-menu__link">Hotels</a>
+          </li>
+          <li class="navbar-menu__item">
+            <a href="#" class="navbar-menu__link">Activities</a>
+          </li>
+          <li class="navbar-menu__item">
+            <a href="#" class="navbar-menu__link">Hotel Day Packages</a>
+          </li>
+          <li class="navbar-menu__item">
+            <a href="#" class="navbar-menu__link">Restaurants</a>
+          </li>
+          <li class="navbar-menu__item">
+            <a href="#" class="navbar-menu__link">Events</a>
+          </li>
+          <li class="navbar-menu__item">
+            <a href="#" class="navbar-menu__link">Rodrigues</a>
+          </li>
+        </ul>
+        <!-- /.navbar-menu -->
+      </div>
+    </div>
+    <!-- /.navbar-botton -->
+  </header>
+  <nav class="breadcrumb">
+    <div class="container">
+      <ul class="breadcrumb-list">
+        <li class="breadcrumb-list__item">
+          <a href="#" class="breadcrumb-list__link">Home</a>
+        </li>
+        <li class="breadcrumb-list__item">
+          <a href="#" class="breadcrumb-list__link">Flash Offers</a>
+        </li>
+        <li class="breadcrumb-list__item">
+          Grand Hilton Hotel
+        </li>
+      </ul>
+    </div>
+    <!-- /.container -->
+
+  </nav>
+  <!-- /.breadcrumb -->
+  <section class="hotel">
+    <div class="container">
+      <div class="hotel-info">
+        <div class="hotel-info__text">
+          <div class="hotel-wrapper">
+            <div class="stars">
+              <img src="img/1 Stars.svg" alt="stars">
+            </div>
+            <h1 class="hotel-name hotel-info__name">GRAND HILTON HOTEL</h1>
+            <span class="offer hotel-info__offer">Flash Offer</span>
+          </div>
+          <p class="hotel-description">Half-Board/ All Inclusive/ Complimentary Activities/ Child Stays Free</p>
+        </div>
+        <div class=" rating hotel-info__rating">
+          <span class="rating__text">User Rattings</span>
+          <span class="rating__counter">4.5/5</span>
+        </div>
+      </div>
+      <div class="hotel-grid">
+        <!-- Slider main container -->
+        <div class="slider">
+          <div class="swiper-container">
+            <div class="swiper ">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/1ocean-tropics-.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/5kokteil.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/1Seasons___Summer__.jpg" alt=""></div>
+              </div>
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button swiper-button--prev"></div>
+              <div class="swiper-button swiper-button--next"></div>
+            </div>
+          </div>
+        </div>
+        <div class="drawing">
+          <div class="drawing-booking">
+            <div class="drawing-booking__hero">
+              <div class="drawing-booking__price">
+                <span class="drawing-booking__price-text">price starts as</span>
+                <span class="drawing-booking__drawing-booking__price-cext">$ 8,500</span>
+                <span class="drawing-booking__price-mext">per room / night</span>
+              </div>
+              <div class="drawing-booking__person">
+                <div class="drawing-booking__person-home">
+                  <img src="img/user.svg" alt="">
+                  <p class="drawing-booking__person-room">2 x Guests</p>
+                </div>
+                <div class="drawing-booking__person-users">
+                  <img src="img/home.svg" alt="">
+                  <p class="drawing-booking__person-names">1 x Room</p>
+                </div>
+              </div>
+            </div>
+            <div class="drawing-booking__call">
+              <h1 class="drawing-booking__call-texts">Quick Booking</h1>
+              <img src="img/phone-call.svg" alt="">
+              <span class=" drawing-booking__call-phone">12100</span>
+            </div>
+            <div class="button">
+              <span class="button-view">View Other Options</span>
+            </div>
+          </div>
+          <div class="drawing-map">
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad2dd6b16f4069f6d719fdb2546a23d7f7b892331196f44ca245bbc95ec00c290&amp;source=constructor"
+              width="347" height="213" frameborder="0">
+            </iframe>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="newsletter">
+    <div class="newsletter-wrapper">
+      <h2 class="newsletter-title newsletter__title ">
+        subscribe to our
+        <span class="newsletter-title__strong">Newsletter</span>
+      </h2>
+      <form action="#" class="subscribe newsletter__subscribe">
+        <input type="text" class="subscribe__input" placeholder="Your email address" />
+        <button class="subscribe__button">
+          Send
+        </button>
+      </form>
+    </div>
+  </section>
+
+
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
